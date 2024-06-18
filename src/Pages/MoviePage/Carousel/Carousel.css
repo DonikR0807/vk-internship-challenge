@@ -1,0 +1,22 @@
+.embla {
+    overflow: hidden;
+}
+
+.embla__viewport {
+    overflow: hidden;
+}
+
+.embla__container {
+    display: flex;
+}
+
+.embla__slide {
+    padding:  0 8px;
+    min-width: 0;
+}
+
+@media screen and (max-width: 599px) {
+    .embla__slide {
+        flex: 0 0 100% !important;
+    }
+}
